@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Assesment 2</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="copyright">Hitung SegiEnam merupakan aplikasi yang berfungsi menghitung luas dari sebuah segi enam
+    aplikasi ini dibuat untuk Assesment 2 mobpro1</string>
+    <string name="judul_apk">Menghitung Luas Segi Enam</string>
+    <string name="txt_input">Panjang sisi</string>
+    <string name="btn_hitung">Hitung</string>
+    <string name="txtTotal">Total: 0</string>
+    <string name="btn_bagikan">Bagikan</string>
+    <string name="bagikan_template">Jumlah : %1$s cm\n\n%2$s</string>
+    <string name="jumlah_invalid">Panjang tidak boleh kosong.</string>
+    <string name="total_x">Total: %1$.2f</string>
+</resources>
