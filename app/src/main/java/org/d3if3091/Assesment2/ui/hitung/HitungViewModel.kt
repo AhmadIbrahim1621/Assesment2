@@ -15,6 +15,16 @@ import org.d3if3091.Assesment2.model.hitungHexa
 class HitungViewModel (private val db: HexaDao) : ViewModel(){
     private val hasilHexa = MutableLiveData<HasilHexa?>()
 
+    fun scheduleUpdater(app: Application) {
+        val request = OneTimeWorkRequestBuilder<UpdateWorker>()
+            .setInitialDelay(1, TimeUnit.MINUTES)
+            .build()
+        WorkManager.getInstance(app).enqueueUniqueWork(
+            UpdateWorker.WORK_NAME,
+            ExistingWorkPolicy.REPLACE,
+            request
+        )
+    }
     fun hitungHexa(jumlah: Double) {
         val dataHexa = HexaEntity(
             jumlah = jumlah

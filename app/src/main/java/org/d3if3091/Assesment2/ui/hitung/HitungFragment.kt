@@ -39,6 +39,7 @@ class HitungFragment: Fragment(){
         binding.shareButton.setOnClickListener { shareData() }
 
         viewModel.getHasilHexa().observe(requireActivity(), { showResult(it) })
+        viewModel.scheduleUpdater(requireActivity().application)
     }
 
     private fun shareData() {
