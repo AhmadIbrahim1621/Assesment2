@@ -1,4 +1,4 @@
-package org.d3if3091.Assesment2.ui.hitung
+package org.d3if3091.assesment3.ui.hitung
 
 import android.content.Intent
 import android.os.Bundle
@@ -10,10 +10,10 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
-import org.d3if3091.Assesment2.R
-import org.d3if3091.Assesment2.databinding.FragmentHitungBinding
-import org.d3if3091.Assesment2.db.HexaDb
-import org.d3if3091.Assesment2.model.HasilHexa
+import org.d3if3091.assesment3.R
+import org.d3if3091.assesment3.databinding.FragmentHitungBinding
+import org.d3if3091.assesment3.db.HexaDb
+import org.d3if3091.assesment3.model.HasilHexa
 
 class HitungFragment: Fragment(){
     private lateinit var binding: FragmentHitungBinding

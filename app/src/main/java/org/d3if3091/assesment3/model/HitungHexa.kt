@@ -1,6 +1,6 @@
-package org.d3if3091.Assesment2.model
+package org.d3if3091.assesment3.model
 
-import org.d3if3091.Assesment2.db.HexaEntity
+import org.d3if3091.assesment3.db.HexaEntity
 import kotlin.math.pow
 
 fun HexaEntity.hitungHexa(): HasilHexa {

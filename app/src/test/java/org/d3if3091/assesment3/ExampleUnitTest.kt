@@ -1,4 +1,4 @@
-package org.d3if3091.Assesment2
+package org.d3if3091.assesment3
 
 import org.junit.Test
 

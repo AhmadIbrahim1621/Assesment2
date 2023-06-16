@@ -1,8 +1,8 @@
-package org.d3if3091.Assesment2.ui.hitung
+package org.d3if3091.assesment3.ui.hitung
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import org.d3if3091.Assesment2.db.HexaDao
+import org.d3if3091.assesment3.db.HexaDao
 
 class HitungViewModelFactory (private val db: HexaDao) : ViewModelProvider.Factory{
     @Suppress("unchecked_cast")

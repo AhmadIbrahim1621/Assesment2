@@ -1,4 +1,4 @@
-package org.d3if3091.Assesment2.db
+package org.d3if3091.assesment3.db
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao

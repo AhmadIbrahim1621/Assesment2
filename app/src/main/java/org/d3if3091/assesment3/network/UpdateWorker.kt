@@ -1,4 +1,4 @@
-package org.d3if3091.Assesment2.network
+package org.d3if3091.assesment3.network
 
 import android.content.Context
 import android.util.Log

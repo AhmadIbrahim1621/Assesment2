@@ -1,4 +1,4 @@
-package org.d3if3091.Assesment2.ui.hitung
+package org.d3if3091.assesment3.ui.hitung
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -7,10 +7,10 @@ import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.d3if3091.Assesment2.db.HexaDao
-import org.d3if3091.Assesment2.db.HexaEntity
-import org.d3if3091.Assesment2.model.HasilHexa
-import org.d3if3091.Assesment2.model.hitungHexa
+import org.d3if3091.assesment3.db.HexaDao
+import org.d3if3091.assesment3.db.HexaEntity
+import org.d3if3091.assesment3.model.HasilHexa
+import org.d3if3091.assesment3.model.hitungHexa
 
 class HitungViewModel (private val db: HexaDao) : ViewModel(){
     private val hasilHexa = MutableLiveData<HasilHexa?>()

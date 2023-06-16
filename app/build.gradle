@@ -6,14 +6,14 @@ plugins {
 }
 
 android {
-    namespace 'org.d3if3091.Assesment2'
+    namespace 'org.d3if3091.assesment3'
     compileSdk 33
 
     defaultConfig {
-        applicationId "org.d3if3091.Assesment2"
+        applicationId "org.d3if3091.assesment3"
         minSdk 22
         targetSdk 33
-        versionCode 1
+        versionCode 8
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
